@@ -1,0 +1,27 @@
+menu button {
+    background-color: blueviolet;
+    border: none;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 16px;    
+    font-size: 20px;
+}
+
+menu button.active {
+    background-color: purple;
+}
+
+menu button:hover {
+    background-color: white;
+}
+
+#tab-content {
+    padding: 25px;
+    font-size: 40px;
+}
+
+#dynamic-p {
+    margin: 10px;
+    font-size: 40px;
+}

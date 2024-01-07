@@ -1,0 +1,24 @@
+.header {
+    background-color: purple;
+    text-align: center;
+    max-width: 100%;
+    padding: 45px;
+    font-size: 40px;
+}
+
+.github-link {
+    position: absolute;
+    right: 84px;
+    top: 60px;
+}
+
+.github-link button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+.github-link button:hover {
+    background-color: white;
+}
