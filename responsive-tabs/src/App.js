@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Header from './Components/Header';
 import About from './Components/About';
 import TabButtonEx from './Components/TabButtonEx';
+import Credits from './Components/Credits';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <About />
       <TabButtonEx />
+      {/* <Credits /> */}
     </div>
   );
 }

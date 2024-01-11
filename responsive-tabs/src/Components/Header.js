@@ -7,9 +7,9 @@ const Header = () => {
             <div>
             <h1 className="header">Welcome to my practice site!</h1>
             </div>
-            <div className="github-link">
+            {/* <div className="github-link">
             <button>Checkout Gitbub</button>
-            </div>
+            </div> */}
         </Fragment>
     );
 };

@@ -17,7 +17,8 @@ const TabButtonEx = () => {
                 <TabButton isSelected={selectedTopic === 'third'} onSelect={() => handleSelect('third')}>Third</TabButton>
             </menu>
             {/* dynamically render the info of the button that is selected */}
-            {!selectedTopic && <p id="dynamic-p">Please select a topic above.</p>}
+            {/* {!selectedTopic && <p id="dynamic-p">Please select a topic above.</p>} */}
+            {!selectedTopic && setSelectedTopic('first')}
             {selectedTopic && <div id="tab-content">
                 <h3>{EXAMPLES[selectedTopic].title}</h3>
                 <p>{EXAMPLES[selectedTopic].description}</p>
